@@ -10,7 +10,7 @@
   , "url": "http://github.com/eschmitt/string-utilites.git"
   }
 , "dependencies": {
-    "preludejs": "git://github.com/loop-recur/PreludeJS.git"
+    "lodash.curry": "*"
   }
 , "devDependencies": {
     "mocha": "*"
