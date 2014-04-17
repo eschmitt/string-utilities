@@ -1,0 +1,11 @@
+var _ = require('preludejs');
+
+//+ insert :: String -> Char -> Char -> Int -> String
+var insert = function (s, c, index_char, i) {
+      if (i > 0) { return s.slice(0, i) + c + s.slice(i, s.length); }
+      else { return c + s; }
+    }.autoCurry()
+
+module.exports = {
+  insert: insert
+}

@@ -1,0 +1,20 @@
+{ "name": "string-utilities"
+, "description": "A collection of utility functions that operate on strings without mutating state (pure functions)."
+, "version": "0.0.1"
+, "author": {
+    "name": "Eric Schmitt"
+  , "email": "ericschmitt1@gmail.com"
+  }
+, "repository": {
+    "type": "git"
+  , "url": "http://github.com/eschmitt/string-utilites.git"
+  }
+, "dependencies": {
+    "preludejs": "git://github.com/loop-recur/PreludeJS.git"
+  }
+, "devDependencies": {
+    "mocha": "*"
+  , "chai": "*"
+  }
+, "main": "./string-utilities.js"
+}
